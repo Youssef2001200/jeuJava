@@ -1,8 +1,11 @@
 private GUI gui; 
 	private Zone zoneCourante;
+    private Zone  youcef
+    
     public Jeu() {
         creerCarte();
         gui = null;
+
     }
 
     public void setGUI( GUI g) { gui = g; afficherMessageDeBienvenue(); }
