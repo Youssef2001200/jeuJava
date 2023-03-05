@@ -1,8 +1,5 @@
 private GUI gui; 
 	private Zone zoneCourante;
-
-
-    private Zone zoneC;
     public Jeu() {
         creerCarte();
         gui = null;
