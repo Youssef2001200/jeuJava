@@ -1,12 +1,9 @@
 private GUI gui; 
 	private Zone zoneCourante;
-    
+    /// ./// 
     public Jeu() {
         creerCarte();
         gui = null;
-        /*  
-        
-        */
     }
 
     public void setGUI( GUI g) { gui = g; afficherMessageDeBienvenue(); }
